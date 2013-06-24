@@ -17,7 +17,7 @@ class git::package {
       }
     }
     default: {
-      fail("Module ${module_name} does not yet support ${::operatingsystem}")
+      fail("Module ${module_name} does not yet support ${::osfamily}")
     }
   }
 }
