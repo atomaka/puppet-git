@@ -1,5 +1,5 @@
 #
-class git::package::debian {
+class git::package::ubuntu {
   include apt
   apt::ppa { 'ppa:git-core/ppa': }
 
