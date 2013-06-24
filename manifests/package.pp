@@ -1,3 +1,4 @@
+#
 class git::package {
   anchor { 'git::package::begin': }
   anchor { 'git::package::end': }
@@ -10,7 +11,7 @@ class git::package {
       }
     }
     'RedHat': {
-      package { 'git': 
+      package { 'git':
         require => Anchor['git::package::begin'],
         before  => Anchor['git::package::end'],
       }

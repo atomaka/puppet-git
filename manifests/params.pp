@@ -1,3 +1,2 @@
-class git::params {
-
-}
+#
+class git::params {}

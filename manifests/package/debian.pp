@@ -1,3 +1,4 @@
+#
 class git::package::debian {
   include apt
   apt::ppa { 'ppa:git-core/ppa': }
